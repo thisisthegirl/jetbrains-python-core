@@ -1,3 +1,4 @@
+from math import copysign
 from lib2to3.pytree import convert
 from re import X
 import string
@@ -263,4 +264,66 @@ import string
 #     print('Along came another')
 #     print('Then there were', i+1, '!')
 
-v
+
+# from string import digits
+
+# print(digits)
+
+# from random import choice
+
+# print(choice(['1', '2', '3']))
+
+# # place `import` statement at top of the program
+# x = float(input())
+# y = float(input())
+
+# print(copysign(x, y))
+
+# # don't modify this code or the variables may not be available
+# x, y = map(float, input().split(' '))
+
+# # place `import` statement at top of the program
+# from random import seed
+# from random import randint
+
+# # don't modify this code or variable `n` may not be available
+# n = int(input())
+
+# # put your code here
+# seed(n)
+# print(randint(-100, 100))
+
+# oceans = ['Atlantic', 'Pacific', 'Indian', 'Southern', 'Arctic']
+# for ocean in oceans:
+# #     print(ocean)
+
+# for char in 'magic':
+#     print(char)
+
+# for _ in range(1, 15, 3):
+#     print(_)
+
+# word = input()
+# for char in word:
+#     print(char)
+
+# times = int(input("How many times should I say hello?"))
+# for n in range(times):
+#     print("Hello")
+
+# names = ["Basia", "Yoko", "Rafał", "Pasztet"]
+# surnames = ["Random", "Większy random", "Największy random"]
+
+# for name in names:
+#     for surname in surnames:
+#         print(name, surname)
+
+# tel_num = input()
+
+# num_name = ["zero", "one", "two", "three", "four",
+#             "five", "six", "seven", "eight", "nine"]
+
+# for i in tel_num:
+#     print(num_name[int(i)])
+
+l
