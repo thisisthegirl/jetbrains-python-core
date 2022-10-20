@@ -326,4 +326,61 @@ import string
 # for i in tel_num:
 #     print(num_name[int(i)])
 
-l
+# a = [1, 2, 3]
+# b = [1, 2, 3]
+
+# # print(a == b)
+
+# # print(id(a))
+# # print(id(b))
+
+# print(a is b)
+# print(a == b)
+# # print(a is not b)
+
+# a = 10000
+# b = 10000
+
+# print(a is b)
+
+
+# def say_hi(name=None):
+#     if name is None:
+#         print("Hello!")
+#     else:
+#         print("Hello " + name)
+
+# say_hi()
+# say_hi("Nick")
+
+# def object_with_beautiful_identity(i):
+#     for i in range(10_000):
+#         # Change the next line
+#         if id(i) % 1000 == 888:
+#             return i
+#         else:
+#             return "nope"
+
+# print(object_with_beautiful_identity(8888))
+
+# def print_book_info(title, author=None, year=None):
+#     #  Write your code here
+#     if year is None:
+#         if author is None:
+#             print('"' + title + '"')
+#         else:
+#             print('"' + title + '"' + " was written by " + author)
+#     else:
+#         if author is None:
+#             print('"' + title + '"' + " was written in " + year)
+#         else:
+#             print('"' + title + '"' + " was written by " + author + " in " + year)
+
+# print_book_info("Harry Potter", None, "2022")
+
+string = "hello"
+new_string = string
+string = "world"
+
+print(string, id(string))            # world 4336233136
+print(new_string, id(new_string))    # hello 4336233024
